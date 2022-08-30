@@ -1,0 +1,28 @@
+import { NgModule, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { HeaderComponent } from './header/header.component';
+import { ResourceComponent } from './resource/resource.component';
+import { NextStepsComponent } from './next-steps/next-steps.component';
+import { FooterComponent } from './footer/footer.component';
+import { HighlightCardComponent } from './highlight-card/highlight-card.component';
+
+const component = [
+  HeaderComponent,
+  ResourceComponent,
+  NextStepsComponent,
+  FooterComponent,
+  HighlightCardComponent
+]
+
+@NgModule({
+  declarations: [
+   ...component
+  ],
+  imports: [
+    CommonModule
+  ],
+  exports: [
+   ...component
+  ]
+})
+export class PagesModule { }
