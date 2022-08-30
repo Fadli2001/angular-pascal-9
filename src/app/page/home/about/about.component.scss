@@ -1,0 +1,22 @@
+.about {
+    height: 80vh;
+}
+
+.title-left::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+
+.right-content p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.skill span{
+    color: #4e4e4e;    
+}
+
