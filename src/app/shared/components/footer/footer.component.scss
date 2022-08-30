@@ -1,5 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 $font-stack: sans-serif;
 $primary-color: #42a5f5;
 $secondary-color: #ab47bc;
@@ -9,10 +7,23 @@ $margin-bottom: 50px;
 $margin-left: 50px;
 $margin-right: 50px;
 
+
 * {
     margin: 0;
     padding: 0;
     font-family: $font-stack;
 }
 
-//
+
+footer {
+    background-color: $enigma-primary-color;    
+    text-align: center;
+    color: $primary-color;    
+    padding: 15px;
+    margin-top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
